@@ -9,6 +9,7 @@
 6. If the app hangs at some point, then try restarting the app.
 7. If the app crashes and it dosen't stops after few restarts then, try reinstalling it.
 8. Dont be rude with the app, in other words use the app smoothly, fastly switching between activities may crash it, again Im trying to fix it :(
+9. In case if you don't know where the apk is?, it in 
 
 ## Karmath Features
 1. Thought of the day!!
