@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutme_background_1"
+    tools:context=".AboutmeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/About_Me"-->
+<!--        android:textColor="#FF79168A"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="25dp"-->
+<!--        tools:layout_editor_absoluteY="22dp" />-->
+
+    <ImageView
+        android:id="@+id/facebookView"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/facebook"
+        android:focusable="true"
+        android:onClick="showFacebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/facebook"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/instagramView"
+        android:layout_width="64dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:clickable="true"
+        android:contentDescription="@string/instagram"
+        android:focusable="true"
+        android:onClick="showInstagram"
+        app:layout_constraintBottom_toBottomOf="@+id/facebookView"
+        app:layout_constraintStart_toEndOf="@+id/facebookView"
+        app:layout_constraintTop_toTopOf="@+id/facebookView"
+        app:srcCompat="@drawable/instagram"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/githubView"
+        android:layout_width="84dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:clickable="true"
+        android:contentDescription="@string/github"
+        android:focusable="true"
+        android:onClick="showGithub"
+        app:layout_constraintBottom_toBottomOf="@+id/linkedinView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linkedinView"
+        app:layout_constraintTop_toTopOf="@+id/linkedinView"
+        app:srcCompat="@drawable/github"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/linkedinView"
+        android:layout_width="89dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:clickable="true"
+        android:contentDescription="@string/linkedin"
+        android:focusable="true"
+        android:onClick="showLinkedin"
+        app:layout_constraintBottom_toBottomOf="@+id/instagramView"
+        app:layout_constraintStart_toEndOf="@+id/instagramView"
+        app:layout_constraintTop_toTopOf="@+id/instagramView"
+        app:srcCompat="@drawable/linkedin"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="323dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginBottom="165dp"
+        android:text="@string/find_me_over_social_media"
+        android:textColor="#FF7FFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        tools:ignore="MissingConstraints"
+        tools:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="328dp"
+        android:layout_height="375dp"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.573"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="322dp"
+            android:layout_height="322dp"
+            android:scrollbars="vertical"
+            android:text="@string/abtMe"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+            tools:textStyle="bold" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="एप्लिकेशन के बारे में"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

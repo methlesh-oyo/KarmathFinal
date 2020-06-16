@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karmathfinal">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:label="कर्मठ"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".AgyatActivity"
+            android:label="अज्ञात"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".BhagwanActivity"
+            android:label="भगवान"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".DardActivity"
+            android:label="दर्द"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".DostiActivity"
+            android:label="दोस्ती"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".GuruActivity"
+            android:label="गुरु"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".LaganActivity"
+            android:label="लगन"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".PrernaActivity"
+            android:label="प्रेरणा"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".PyaarActivity"
+            android:label="प्रेम"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".TyagActivity"
+            android:label="त्याग"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".SongActivity"
+            android:label="गीत"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".ThoughtActivity"
+            android:label="आज का विचार"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".FavoriteActivity"
+            android:label="प्रिय"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".AboutmeActivity"
+            android:label="एप्लिकेशन के बारे में"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".WriteActivity"
+            android:label="समीक्षा लिखें"
+            android:parentActivityName=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"/>
+    </application>
+
+</manifest>

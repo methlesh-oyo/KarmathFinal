@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_song"
+            android:icon="@drawable/ic_lyrics"
+            android:title="गीत" />
+        <item android:id="@+id/nav_thought"
+            android:icon="@drawable/ic_thought"
+            android:title="आज का विचार" />
+<!--        <item android:id="@+id/nav_oneliner"-->
+<!--            android:icon="@drawable/ic_oneliner"-->
+<!--            android:title="@string/twoliner" />-->
+        <item android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite"
+            android:title="प्रिय" />
+        <item android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="सांझा करें" />
+    </group>
+    <item android:title="संवाद">
+        <menu>
+            <item android:id="@+id/nav_abt_me"
+                android:icon="@drawable/ic_aboutme"
+                android:title="एप्लिकेशन के बारे में"/>
+            <item android:id="@+id/nav_write_a_review"
+                android:icon="@drawable/ic_email"
+                android:title="समीक्षा लिखें"/>
+        </menu>
+    </item>
+</menu>

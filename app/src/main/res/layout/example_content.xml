@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/old_paper_background"
+    app:cardBackgroundColor="@color/design_default_color_surface"
+    app:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="412dp"
+        android:layout_height="320dp"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="345dp"
+            android:layout_height="217dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:text="Dummy Content"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/copyContent"
+            app:layout_constraintEnd_toEndOf="@+id/contentIcon"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/addToFavorite"
+            android:layout_width="30dp"
+            android:layout_height="49dp"
+            android:button="@drawable/customdrawablecheckbox"
+            android:checked="false"
+
+            android:text="@string/space"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/shareContent" />
+
+        <ImageView
+            android:id="@+id/contentIcon"
+            android:layout_width="46dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_agyat"
+            app:layout_constraintBottom_toTopOf="@+id/textView11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/shareContent"
+            android:layout_width="43dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="4dp"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_share"
+            tools:ignore="NotSibling,VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/copyContent"
+            android:layout_width="54dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="4dp"
+            android:background="@null"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/addToFavorite"
+            app:srcCompat="@drawable/ic_content_copy"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

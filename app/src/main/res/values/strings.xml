@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">कर्मठ</string>
+    <string name="Mesaage">KarmathFinal</string>
+    <string name="Songs">Songs</string>
+    <string name="Bhagwan">Bhagwan</string>
+    <string name="twoliner">Two Liners</string>
+    <string name="Favorite">Favorites</string>
+    <string name="About_Me">About The App</string>
+    <string name="Share">Share</string>
+    <string name="Send">Write a review</string>
+    <string name="Communicate">Communicate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_favorites">favorites</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="github">Github</string>
+    <string name="find_me_over_social_media">Find Me Over Social Media</string>
+    <string name="abtMe">The purpose of this app is to show you the beauty of our poetry tradition.
+                             I respect the feelings and intellectual properties of every individual.
+                             This app is just made for fun.
+                             My intentions are clearly not to hurt anyone, in such cases, I apologize for the same.
+                             At the end of the day, Here\’s wishing you success in everything you do. There is always a reason to be happy. Find it!!!
+    </string>
+    <string name="message">Message:</string>
+    <string name="send">send</string>
+    <string name="subject">Subject:</string>
+    <string name="to">To:</string>
+    <string name="mail_id">miitbh1@gmail.com</string>
+    <string name="about_karmath">About Karmath</string>
+    <string name="write_a_review">Write a review</string>
+    <string name="space" />
+    <string name="todo">TODO</string>
+</resources>
