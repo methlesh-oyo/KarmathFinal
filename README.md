@@ -17,6 +17,4 @@
 4. Share the app.
 
 Download the apk here: https://drive.google.com/uc?export=download&id=1bwR-bK3bIvAoSKkD54j_tBgOzN80tspb
-## Warning 
-Download at your own risk, it may contain malwares...¯\_(ツ)_/¯
-Anyways i have read the documnet http://www.iwar.org.uk/law/resources/cybercrime/mcconnell/CyberCrime.pdf . but i don't care ¯\_(ツ)_/¯
+
