@@ -8,7 +8,7 @@
     android:background="@color/colorAccent"
     android:id="@+id/drawer_layout"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity2"
+    tools:context="com.methleshkoshle.karmathfinal.MainActivity2"
     tools:openDrawer="start">
 
     <LinearLayout

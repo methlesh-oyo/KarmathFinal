@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/aboutme_background_1"
     android:id="@+id/dosti_layout"
-    tools:context=".DostiActivity">
+    tools:context="com.methleshkoshle.karmathfinal.DostiActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

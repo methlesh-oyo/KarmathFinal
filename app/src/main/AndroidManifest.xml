@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.karmathfinal">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.methleshkoshle.karmathfinal">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.methleshkoshle.karmathfinal.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor">
             <intent-filter>
@@ -23,93 +24,93 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity2"
+            android:name="com.methleshkoshle.karmathfinal.MainActivity2"
             android:label="कर्मठ"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".AgyatActivity"
+            android:name="com.methleshkoshle.karmathfinal.AgyatActivity"
             android:label="अज्ञात"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".BhagwanActivity"
+            android:name="com.methleshkoshle.karmathfinal.BhagwanActivity"
             android:label="भगवान"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".DardActivity"
+            android:name="com.methleshkoshle.karmathfinal.DardActivity"
             android:label="दर्द"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".DostiActivity"
+            android:name="com.methleshkoshle.karmathfinal.DostiActivity"
             android:label="दोस्ती"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".GuruActivity"
+            android:name="com.methleshkoshle.karmathfinal.GuruActivity"
             android:label="गुरु"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".LaganActivity"
+            android:name="com.methleshkoshle.karmathfinal.LaganActivity"
             android:label="लगन"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".PrernaActivity"
+            android:name="com.methleshkoshle.karmathfinal.PrernaActivity"
             android:label="प्रेरणा"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".PyaarActivity"
+            android:name="com.methleshkoshle.karmathfinal.PyaarActivity"
             android:label="प्रेम"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".TyagActivity"
+            android:name="com.methleshkoshle.karmathfinal.TyagActivity"
             android:label="त्याग"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".SongActivity"
+            android:name="com.methleshkoshle.karmathfinal.SongActivity"
             android:label="गीत"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".ThoughtActivity"
+            android:name="com.methleshkoshle.karmathfinal.ThoughtActivity"
             android:label="आज का विचार"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".FavoriteActivity"
+            android:name="com.methleshkoshle.karmathfinal.FavoriteActivity"
             android:label="प्रिय"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".AboutmeActivity"
+            android:name="com.methleshkoshle.karmathfinal.AboutmeActivity"
             android:label="एप्लिकेशन के बारे में"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
         <activity
-            android:name=".WriteActivity"
+            android:name="com.methleshkoshle.karmathfinal.WriteActivity"
             android:label="समीक्षा लिखें"
-            android:parentActivityName=".MainActivity2"
+            android:parentActivityName="com.methleshkoshle.karmathfinal.MainActivity2"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"/>
     </application>

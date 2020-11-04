@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/aboutme_background_1"
     android:id="@+id/guru_layout"
-    tools:context=".GuruActivity">
+    tools:context="com.methleshkoshle.karmathfinal.GuruActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
