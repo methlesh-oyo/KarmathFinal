@@ -1,0 +1,10 @@
+package com.methleshkoshle.karmathfinal;
+
+public class Conditionals{
+    public static boolean isDigit(char c) {
+        return (c >= '0' && c <= '9');
+    }
+    public static boolean lineBreak(char c){
+        return (c == '।' || c == ',' || c == '|' || c == '.' || c == '?');
+    }
+}
